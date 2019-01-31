@@ -32,7 +32,7 @@ grep '303\-[0-9]\{3\}\-[0-9]\{4\}' regex_practice.txt > phone_result.txt
 grep '[[:alnum:]+\.\_\-]*@geocities.com' regex_practice.txt > email_results.txt
 
 #5. Lising all of the lines that match a command-line regular expression
-grep $word $fileName > command_results.txt
+grep $1 regex_practice.txt > command_results.txt
 
 
 
