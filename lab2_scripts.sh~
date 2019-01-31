@@ -1,0 +1,17 @@
+#!/bin/bash
+# Authors : Rajesh Rajchal & Jack Beeken
+# Date: 1/30/2019
+
+#Problem 1 Code:
+#Make sure to document how you are solving each problem!
+
+echo "Enter a file name: "
+read fileName
+echo "What do you want to search in the file"
+read word
+grep word \fileName
+
+
+
+
+
